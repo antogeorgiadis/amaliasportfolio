@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actress Portfolio</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #FFFFFF; /* White Text */
+            background-color: #1A1A1A; /* Dark Background */
+            display: flex;
+        }
+
+        span {
+            font-size:40px;
+            margin-left: 20px;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #000000; /* Black Background */
+            padding: 20px;
+            position: fixed;
+            height: 100%;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo-image {
+            width: 100px;
+            height: auto;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu ul li {
+            margin: 20px 0;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: #FFFFFF; /* White Text */
+            font-size: 1.2em;
+        }
+
+        .main-content {
+            margin-left: 300px; /* Increased margin-left to avoid overlap */
+            padding: 20px;
+            flex: 1;
+        }
+
+        .small-image {
+            text-align: left;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        .small-image img {
+            width: 170px;
+            height: auto;
+            border-radius: 50%;
+            border: 3px solid #FFFFFF; /* White Border */
+        }
+
+        .actress-name {
+            font-size: 1.5em;
+        }
+
+        h2 {
+            font-size: 2em;
+            border-bottom: 2px solid #FFFFFF; /* White Border */
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: #FFFFFF; /* White Text */
+        }
+
+        p, ul {
+            font-size: 1.2em;
+            line-height: 1.6em;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background-color: #333333; /* Dark Gray Background */
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 4px;
+            color: #FFFFFF; /* White Text */
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="path-to-your-logo.jpg" alt="Logo" class="logo-image">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#biography">Biography</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main-content">
+        <div class="small-image">
+            <img src="amalia.png" alt="Actress Image">
+            <span>Amalia Paschalidi</span>
+        </div>
+        <!-- <div class="actress-name">
+            <h1>Actress Name</h1>
+        </div> -->
+
+        <section id="biography">
+            <h2>Biography</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>Role in "Movie Title" (Year)</li>
+                <li>Role in "Theatre Production" (Year)</li>
+                <li>Role in "TV Show" (Year)</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Details about bespoke projects and other works.</p>
+        </section>
+    </div>
+</body>
+</html>
