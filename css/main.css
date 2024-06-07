@@ -85,7 +85,7 @@ p {
 }
 
 .header-wrapper h3 {
-    font-size: 17pt;
+    font-size: 20pt;
     letter-spacing: 5pt;
     line-height: 30pt;
     font-weight: 500;
@@ -95,6 +95,8 @@ p {
 .header-label {
     color:white;
     font-weight: 400;
+    font-size:14pt;
+    letter-spacing: 6pt;
 }
 
 .header-wrapper p {
