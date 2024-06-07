@@ -218,7 +218,8 @@ ul li {
     font-weight: 400;
     font-size: 12pt;
     letter-spacing: 1pt;
-    text-align: justify;
+    text-align: center;
+    color:white;
 }
 
 .about .btn-primary {
