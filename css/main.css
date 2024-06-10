@@ -651,35 +651,39 @@ footer h4 {
 /******** PROJECT SECTION START ********/
 
 .header-two {
-  background: url('../img/placeholder.png') no-repeat center center;
+  /* background: url('../img/placeholder.png') no-repeat center center;
   background-size: cover;
   -webkit-background-size: cover;
-  -moz-background-size: cover;
-  width: 100%;
-  height: 100%; /* For at least Firefox */
-  position: relative;
+  -moz-background-size: cover; */
+  width: 33%;
+  height: 33%; /* For at least Firefox */
 }
 
 .header-wrapper-two {  
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
 }
 
+.genesisimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .header-wrapper-two h3 {
-    font-size: 22pt;
-    letter-spacing: 8pt;
+    font-size: 30pt;
+    letter-spacing: 10pt;
     line-height: 30pt;
     font-weight: 700;
-    color: #fff;
+    color: black;;
 }
 
 .header-wrapper-two p {
     font-size: 14pt;
-    font-weight: 400;
-    letter-spacing: 6pt;
+    font-weight: 600;
+    letter-spacing: 7pt;
     color: #B68E52;
 }
 
@@ -688,7 +692,7 @@ footer h4 {
 }
 
 .fact {
-    margin-top: 100px;
+    margin-top: 10px;
     width: auto;
     height: auto; 
 }
@@ -731,8 +735,8 @@ footer h4 {
 }
 
 .project {
-    margin-top: 180px;
-    margin-bottom: 180px;
+    margin-top: 0;
+    margin-bottom: 10px;
 }
 
 .project h4 {
