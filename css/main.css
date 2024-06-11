@@ -311,12 +311,17 @@ ul li {
 }
 
 .services .fa {
+
     font-size: 20pt;
     margin-top: 10px;
     color: #B68E52;
 }
 
+.smm {
+    margin-left:50px;
+}
 .services h3 {
+
     color: #1b1b1b;
     margin-top: 30px;
     font-size: 12pt;
@@ -344,6 +349,8 @@ ul li {
    color: #898989;
    letter-spacing: 1px;
    line-height: 15pt;
+   margin-left:50px;
+
 }
 
 /******** WORK SECTION START ********/
