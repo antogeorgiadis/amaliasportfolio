@@ -72,7 +72,8 @@ p {
 }
 
 .header-wrapper {
-    background-color:#404040;
+    /* background-color:#ffffff; */
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(198, 196, 196));
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
   position: absolute;
@@ -85,17 +86,17 @@ p {
 }
 
 .header-wrapper h3 {
-    font-size: 20pt;
-    letter-spacing: 5pt;
+    font-size: 25pt;
+    letter-spacing: 8pt;
     line-height: 30pt;
     font-weight: 500;
-    color: rgb(255, 217, 159);
+    color: rgb(0, 0, 0);
 }
 
 .header-label {
-    color:white;
+    color:rgb(0, 0, 0);
     font-weight: 400;
-    font-size:14pt;
+    font-size:15pt;
     letter-spacing: 6pt;
 }
 
