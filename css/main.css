@@ -27,10 +27,11 @@
 }
 
 .sm-title {
-    font-family: 'Dynalight', cursive;
     font-size: 30pt;
     letter-spacing: 5pt;
-    color: #B68E52;
+    padding: 10px;
+    background-color: #B68E52;
+    color: black;
 }
 
 .no-padding {
@@ -230,9 +231,9 @@ ul li {
     border: 0px;
     padding: 14px 36px;
     background-color: #B68E52; 
-    color: #fff;
+    color: black;
     text-transform: uppercase;
-    font-size: 8pt;
+    font-size: 11pt;
     letter-spacing: 1.5pt;
     margin-top: 30px;
     margin-left: 30px;
@@ -240,6 +241,7 @@ ul li {
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
+    font-weight: 600;
 }
 
 .about .btn-primary:hover {
@@ -253,13 +255,14 @@ ul li {
     background-color: #fff; 
     color: #1b1b1b;
     text-transform: uppercase;
-    font-size: 8pt;
+    font-size: 11pt;
     letter-spacing: 1.5pt;
     margin-top: 30px;
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
     -webkit-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
+    font-weight: 600;
 }
 
 .about .btn-default:hover {
@@ -635,9 +638,9 @@ ul li {
     font-size: 12pt;
 }
 
-.contact h4 {
+/* .contact h4 {
     color: #898989;
-}
+} */
 
 .contact a {
     text-decoration: none;
