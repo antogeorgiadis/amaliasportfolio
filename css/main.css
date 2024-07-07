@@ -224,6 +224,7 @@ ul li {
     letter-spacing: 1pt;
     text-align: center;
     color:white;
+    line-height: 3;
 }
 
 .about .btn-primary {
