@@ -72,12 +72,15 @@ p {
 }
 
 .header-wrapper {
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(198, 196, 196));
+  /* background-image: linear-gradient(rgb(255, 255, 255), rgb(198, 196, 196)); */
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
   position: absolute;
   top: 85%;
   left: 50%;
+  background-color: white;
+  border-style: double;
+  border-width: 6px;
 }
 
 .header-wrapper .sm-title {
