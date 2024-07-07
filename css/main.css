@@ -173,11 +173,11 @@ ul li {
 }
 
 #sidebar ul li a:hover {
-    -webkit-transition: all 0.6s ease-in;
-    -moz-transition: all 0.6s ease-in;
-    -ms-transition: all 0.6s ease-in;
-    -o-transition: all 0.6s ease-in;
-    transition: all 0.6s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
     color: #B68E52;
 }
 
@@ -246,7 +246,14 @@ ul li {
 }
 
 .about .btn-primary:hover {
-    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+        background-color: #1b1b1b; 
+        color: #B68E52;
+        border:1px solid white;
 }
 
 .about .btn-default {
@@ -264,6 +271,12 @@ ul li {
     -moz-transition: all 0.4s;
     transition: all 0.4s;
     font-weight: 600;
+}
+
+.about .btn-default:hover {
+    background-color: #1b1b1b; 
+    color: white;
+    border:1px solid white;
 }
 
 .about .btn-default:hover {
@@ -588,11 +601,11 @@ ul li {
 }
 
 .info-btn .btn-default:hover {
-    -webkit-transition: all 0.6s ease-in;
-    -moz-transition: all 0.6s ease-in;
-    -ms-transition: all 0.6s ease-in;
-    -o-transition: all 0.6s ease-in;
-    transition: all 0.6s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
     background-color: #B68E52;
 }
 
@@ -746,11 +759,11 @@ footer h4 {
 }
 
 .visit-btn .btn-default:hover {
-    -webkit-transition: all 0.6s ease-in;
-    -moz-transition: all 0.6s ease-in;
-    -ms-transition: all 0.6s ease-in;
-    -o-transition: all 0.6s ease-in;
-    transition: all 0.6s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
     background-color: #B68E52;
 }
 
@@ -781,20 +794,20 @@ footer h4 {
 }
 
 .home:hover {
-    -webkit-transition: all 0.6s ease-in;
-    -moz-transition: all 0.6s ease-in;
-    -ms-transition: all 0.6s ease-in;
-    -o-transition: all 0.6s ease-in;
-    transition: all 0.6s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
     background-color: #B68E52;
 }
 
 .next:hover {
-    -webkit-transition: all 0.6s ease-in;
-    -moz-transition: all 0.6s ease-in;
-    -ms-transition: all 0.6s ease-in;
-    -o-transition: all 0.6s ease-in;
-    transition: all 0.6s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
     background-color: #B68E52;
 }
 
