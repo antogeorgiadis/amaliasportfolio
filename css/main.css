@@ -706,6 +706,13 @@ footer h4 {
     margin-left: auto;
     margin-right: auto;
 }
+
+.bunnyimg {
+    width: 500px;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
 .header-wrapper-two h3 {
     font-size: 30pt;
     letter-spacing: 10pt;
