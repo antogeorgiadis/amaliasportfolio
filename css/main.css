@@ -30,8 +30,17 @@
     font-size: 30pt;
     letter-spacing: 5pt;
     padding: 10px;
-    background-color: #B68E52;
+    /* background-color: #B68E52; */
     color: black;
+    border-radius:5px;
+}
+
+.sm-title-clients {
+    font-size: 30pt;
+    letter-spacing: 5pt;
+    padding: 10px;
+    /* background-color: #B68E52; */
+    color: white;
     border-radius:5px;
 }
 
