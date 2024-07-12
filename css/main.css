@@ -913,8 +913,23 @@ ul li {
 
 .logos {
     margin-top: 40px;
+    bordeR: 2px solid rgb(215, 166, 74);
+    padding: 20px;
+    background-color: rgb(215, 166, 74);
 }
-
+#alignlogos > div
+{
+    display: inline-block;
+}
+#alignlogos
+{
+    text-align: center;
+    margin: 0px auto;
+}   
+.gcimg {
+    height:80%;
+    width:40% !important;
+}
 .clients img {
     width: 50%;
 }
