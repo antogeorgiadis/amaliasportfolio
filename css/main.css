@@ -1106,14 +1106,28 @@ footer h4 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 40%;
+    width: 40%
 }
 
 .bunnyimg {
-    width: 500px;
+    /* width: 500px; */
     border-radius: 50%;
     margin: auto;
     display: block;
+    height:30%;
+    width:30%;
 }
+
+.pirateimg {
+    /* width: 500px; */
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    height:30%;
+    width:30%;
+}
+
 .header-wrapper-two h3 {
     font-size: 30pt;
     letter-spacing: 10pt;
@@ -1193,7 +1207,7 @@ footer h4 {
      font-weight: 300;
      color: #455a64;
      letter-spacing: 1px;
-     line-height: 15pt;
+     line-height: 20pt;
 }
 
 .home, .next {
