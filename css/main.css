@@ -1092,7 +1092,7 @@ ul li {
 }
 
 .item {
-    border: 1px solid #B68E52;
+    border: 5px solid rgb(215, 166, 74);
     border-radius: 15px;
     background-color: #e5e5e5;
 }
