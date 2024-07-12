@@ -1094,7 +1094,7 @@ ul li {
 .item {
     border: 5px solid rgb(215, 166, 74);
     border-radius: 15px;
-    background-color: #e5e5e5;
+    background-color: white;
 }
 .button-89 {
     --b: 3px;   /* border thickness */
