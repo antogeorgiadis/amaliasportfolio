@@ -697,6 +697,7 @@ ul li {
 .about img {
     margin: 0 auto;
     border-radius: 360px;
+    border: 7px solid rgb(215, 166, 74);
 }
 
 .userpic {
@@ -1037,8 +1038,7 @@ ul li {
 
 .logos {
     margin-top: 40px;
-    bordeR: 2px solid rgb(215, 166, 74);
-    padding: 20px;
+    padding: 15px;
     background-color: rgb(215, 166, 74);
 }
 #alignlogos > div
@@ -1056,6 +1056,7 @@ ul li {
 }
 .clients img {
     width: 50%;
+    border-radius: 10px;
 }
 
 .clients .margin {
