@@ -1083,25 +1083,26 @@ ul li {
     margin: 0 auto;
     margin-top: 50px;
     font-size: 15pt;
-    font-weight: 300;
+    font-weight: 800;
     letter-spacing: 1pt;
-    width: 700px;
-    color: black;
+    color: rgb(255, 255, 255);
     line-height: 20pt;
+    width: 550px;
 }
 
 .review h4 {
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 13pt;
-    font-weight: 300;
-    color: black;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
 }
 
 .review h5 {
-    color: black;
+    color: rgb(255, 255, 255);
     margin-bottom: 45px;
     font-size: 12pt;
+    font-weight: 800;
 }
 
 .review .owl-dots {
@@ -1136,7 +1137,24 @@ ul li {
 .item {
     border: 5px solid rgb(215, 166, 74);
     border-radius: 15px;
-    background-color: white;
+    /* background-color: white; */
+    /* background:
+radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 9%, hsla(0, 100%, 20%, 0) 9%) 0 0,
+radial-gradient(hsl(0, 100%, 27%) 4%, hsl(0, 100%, 18%) 8%, hsla(0, 100%, 20%, 0) 10%) 50px 50px,
+radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 50px 0,
+radial-gradient(hsla(0, 100%, 30%, 0.8) 20%, hsla(0, 100%, 20%, 0)) 0 50px,
+radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 50px 0,
+radial-gradient(hsla(0, 100%, 20%, 1) 35%, hsla(0, 100%, 20%, 0) 60%) 100px 50px,
+radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 0 0,
+radial-gradient(hsla(0, 100%, 15%, 0.7), hsla(0, 100%, 20%, 0)) 50px 50px,
+linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0,
+linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
+background-color: #300;
+background-size: 100px 100px; */
+background-image: url('../img/reviewbg.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position:25% 85%;;
 }
 .button-89 {
     --b: 3px;   /* border thickness */
