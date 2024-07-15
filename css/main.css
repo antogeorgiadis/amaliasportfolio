@@ -594,7 +594,7 @@ p {
     margin: 0;
 }
 
-.header-wrapper h3,h1 {
+.header-wrapper h3, .header-wrapper h1 {
     font-size: 25pt;
     letter-spacing: 8pt;
     line-height: 30pt;
